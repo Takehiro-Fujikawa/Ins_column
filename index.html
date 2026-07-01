@@ -8,21 +8,6 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif; color: #333; line-height: 1.8; background: #fff; }
 
-  /* ===== Header / Nav ===== */
-  .site-header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 16px 32px; border-bottom: 2px solid #2b5797; background: #fff;
-  }
-  .site-logo { height: 56px; }
-  .site-nav { display: flex; gap: 24px; list-style: none; }
-  .site-nav li a, .site-nav li button {
-    font-size: 15px; color: #333; text-decoration: none; background: none; border: none; cursor: pointer; font-family: inherit;
-  }
-  .site-nav li button::after { content: ' ▾'; font-size: 10px; }
-  .header-actions { display: flex; align-items: center; gap: 16px; }
-  .btn-search { background: none; border: none; cursor: pointer; font-size: 20px; }
-  .btn-login { background: #2b5797; color: #fff; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer; font-size: 14px; }
-
   /* ===== Hero Banner ===== */
   .hero-banner {
     width: 100%; background: #edf3f8; text-align: center; padding: 0;
@@ -100,25 +85,6 @@
 </style>
 </head>
 <body>
-
-<!-- ===== Header ===== -->
-<header class="site-header">
-  <div style="display:flex;align-items:center;gap:24px;">
-    <!-- ロゴ画像（差し替え用プレースホルダー） -->
-    <div style="font-size:20px;font-weight:bold;color:#2b5797;">保険コラム<br><span style="font-size:11px;font-weight:normal;">by 第一生命</span></div>
-    <nav>
-      <ul class="site-nav">
-        <li><a href="/consumer/s/">ホーム</a></li>
-        <li><button>Community</button></li>
-        <li><button>Topics</button></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="header-actions">
-    <button class="btn-search" aria-label="検索">🔍</button>
-    <button class="btn-login">Log in</button>
-  </div>
-</header>
 
 <!-- ===== Hero Banner ===== -->
 <section class="hero-banner">
